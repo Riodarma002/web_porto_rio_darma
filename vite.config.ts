@@ -8,5 +8,5 @@ export default defineConfig({
     vue(),
     tailwindcss(),
   ],
-  base: './',
+  base: process.env.NODE_ENV === 'production' ? '/web_porto_rio_darma/' : '/',
 })

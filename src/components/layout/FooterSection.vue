@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { navItems, personalInfo } from '../../data/cv-data'
 
 const scrollTo = (id: string) => {
@@ -7,13 +7,14 @@ const scrollTo = (id: string) => {
     el.scrollIntoView({ behavior: 'smooth' })
   }
 }
+const logoUrl = import.meta.env.BASE_URL + 'rio logo.png'
 </script>
 
 <template>
   <footer class="footer">
     <div class="container footer-content">
       <div class="footer-logo">
-        <img src="/rio logo.png" alt="Rio Darma" class="footer-logo-img" />
+        <img :src="logoUrl" alt="Rio Darma" class="footer-logo-img" />
       </div>
       
       <nav class="footer-nav">
@@ -175,4 +176,3 @@ const scrollTo = (id: string) => {
   }
 }
 </style>
-

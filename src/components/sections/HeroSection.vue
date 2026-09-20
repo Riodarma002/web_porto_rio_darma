@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { personalInfo } from '../../data/cv-data'
 
 const scrollTo = (id: string) => {
@@ -7,6 +7,7 @@ const scrollTo = (id: string) => {
     el.scrollIntoView({ behavior: 'smooth' })
   }
 }
+const photoUrl = import.meta.env.BASE_URL + 'foto-rio.png'
 </script>
 
 <template>
@@ -52,7 +53,7 @@ const scrollTo = (id: string) => {
           <!-- Cutout Photo with Seamless Bottom Fade -->
           <div class="photo-wrapper">
             <img 
-              src="/foto-rio.png?v=1789897890" 
+              :src="photoUrl" 
               alt="Rio Darma Fredika" 
               class="hero-photo" 
             />

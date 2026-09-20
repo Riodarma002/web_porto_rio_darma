@@ -1,4 +1,4 @@
-﻿<script setup lang="ts">
+<script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
 import { navItems } from '../../data/cv-data'
 
@@ -77,12 +77,13 @@ const smoothScrollTo = (targetId: string) => {
 const scrollTo = (id: string) => {
   smoothScrollTo(id)
 }
+const logoUrl = import.meta.env.BASE_URL + 'rio logo.png'
 </script>
 
 <template>
   <header :class="['navbar', { 'scrolled': isScrolled }]">
     <div class="container nav-container">
-      <div class="logo"><img src="/rio logo.png" alt="Rio Darma" class="logo-img" /></div>
+      <div class="logo"><img :src="logoUrl" alt="Rio Darma" class="logo-img" /></div>
       
       <nav class="nav-links">
         <a 

@@ -232,21 +232,23 @@ export const skills: SkillGroup[] = [
     }
   ]
 
-  // --- Portfolio Projects ---
+const base = import.meta.env.BASE_URL
+
+// --- Portfolio Projects ---
 export const portfolioProjects: Project[] = [
-  { id: 'fms', title: 'FMS', category: 'App Desktop', image: '/porto/app desktop FMS.png', description: 'Aplikasi desktop Fleet Management System untuk pemantauan dan pengelolaan armada kendaraan operasional secara real-time.' },
-  { id: 'mon_bus', title: 'Monitoring Bus', category: 'App Desktop', image: '/porto/app desktop monitoring_bus.png', description: 'Sistem pemantauan rute dan operasional armada bus untuk memastikan efisiensi jadwal.' },
-  { id: 'mon_dt', title: 'Monitoring DT', category: 'App Desktop', image: '/porto/app desktop monitoring_DT.png', description: 'Aplikasi pemantauan Dump Truck (DT) di area pertambangan untuk menganalisa produktivitas dan status unit.' },
-  { id: 'mon_fueltruck', title: 'Monitoring Fueltruck', category: 'App Desktop', image: '/porto/app desktop monitoring_fueltruck.png', description: 'Dashboard interaktif untuk memonitor distribusi bahan bakar dan pergerakan fuel truck di lapangan.' },
-  { id: 'app_optrack', title: 'Optrack', category: 'App Desktop', image: '/porto/app desktop optrack.png', description: 'Aplikasi pelacakan operasional harian untuk menganalisis aktivitas unit secara komprehensif.' },
-  { id: 'geofence', title: 'Geofence', category: 'Geofence', image: '/porto/geofence.png', description: 'Implementasi pemetaan batas wilayah virtual (geofencing) untuk membatasi dan melacak pergerakan unit.' },
-  { id: 'gis_cbtg', title: 'GD CBTG U', category: 'GIS', image: '/porto/GIS GD CBTG U.jpg', description: 'Pemetaan jaringan distribusi listrik menggunakan ArcGIS untuk validasi dan manajemen aset secara spasial.' },
-  { id: 'pbi_comm', title: 'Monitoring Commissioning', category: 'PBI', image: '/porto/PBI monitoring commissioning.png', description: 'Dashboard analitik interaktif menggunakan Power BI untuk memantau status penyelesaian fase commissioning.' },
-  { id: 'web_optrack', title: 'Dashboard Optrack', category: 'Web', image: '/porto/web Dashboard Optrack.png', link: 'https://planning.mge.co.id/optrack/#overview', description: 'Platform berbasis web untuk visualisasi data pelacakan unit dan laporan performa real-time.' },
-  { id: 'web_produksi', title: 'Produksi', category: 'Web', image: '/porto/web produksi.png', link: 'https://planning.mge.co.id/produksi/', description: 'Sistem manajemen data web-based untuk mengawasi target, realisasi, dan evaluasi hasil produksi harian.' },
-  { id: 'web_weather', title: 'Weather', category: 'Web', image: '/porto/web weather.png', link: 'https://weather.mge.co.id/', description: 'Aplikasi pemantauan cuaca terintegrasi untuk membantu perencanaan operasional lapangan berdasarkan kondisi cuaca terkini.' },
-    { id: 'web_ms_rental', title: 'Daily MS Rental', category: 'Web', image: '/porto/web ms_rental.png', link: 'https://planning.mge.co.id/ms-kontrak/unit-board', description: 'Sistem pengaturan unit running per-shift secara real-time untuk memantau kondisi unit operasional yang delay serta breakdown.' },
-      { id: 'app_input_ms', title: 'Input Daily MS', category: 'App Desktop', image: '/porto/app desktop input_ms.png', description: 'Sistem inputan aplikasi desktop dari dispatch untuk pendataan aktivitas Daily MS sebelum masuk ke dashboard utama.' },
+  { id: 'fms', title: 'FMS', category: 'App Desktop', image: `${base}porto/app desktop FMS.png`, description: 'Aplikasi desktop Fleet Management System untuk pemantauan dan pengelolaan armada kendaraan operasional secara real-time.' },
+  { id: 'mon_bus', title: 'Monitoring Bus', category: 'App Desktop', image: `${base}porto/app desktop monitoring_bus.png`, description: 'Sistem pemantauan rute dan operasional armada bus untuk memastikan efisiensi jadwal.' },
+  { id: 'mon_dt', title: 'Monitoring DT', category: 'App Desktop', image: `${base}porto/app desktop monitoring_DT.png`, description: 'Aplikasi pemantauan Dump Truck (DT) di area pertambangan untuk menganalisa produktivitas dan status unit.' },
+  { id: 'mon_fueltruck', title: 'Monitoring Fueltruck', category: 'App Desktop', image: `${base}porto/app desktop monitoring_fueltruck.png`, description: 'Dashboard interaktif untuk memonitor distribusi bahan bakar dan pergerakan fuel truck di lapangan.' },
+  { id: 'app_optrack', title: 'Optrack', category: 'App Desktop', image: `${base}porto/app desktop optrack.png`, description: 'Aplikasi pelacakan operasional harian untuk menganalisis aktivitas unit secara komprehensif.' },
+  { id: 'geofence', title: 'Geofence', category: 'Geofence', image: `${base}porto/geofence.png`, description: 'Implementasi pemetaan batas wilayah virtual (geofencing) untuk membatasi dan melacak pergerakan unit.' },
+  { id: 'gis_cbtg', title: 'GD CBTG U', category: 'GIS', image: `${base}porto/GIS GD CBTG U.jpg`, description: 'Pemetaan jaringan distribusi listrik menggunakan ArcGIS untuk validasi dan manajemen aset secara spasial.' },
+  { id: 'pbi_comm', title: 'Monitoring Commissioning', category: 'PBI', image: `${base}porto/PBI monitoring commissioning.png`, description: 'Dashboard analitik interaktif menggunakan Power BI untuk memantau status penyelesaian fase commissioning.' },
+  { id: 'web_optrack', title: 'Dashboard Optrack', category: 'Web', image: `${base}porto/web Dashboard Optrack.png`, link: 'https://planning.mge.co.id/optrack/#overview', description: 'Platform berbasis web untuk visualisasi data pelacakan unit dan laporan performa real-time.' },
+  { id: 'web_produksi', title: 'Produksi', category: 'Web', image: `${base}porto/web produksi.png`, link: 'https://planning.mge.co.id/produksi/', description: 'Sistem manajemen data web-based untuk mengawasi target, realisasi, dan evaluasi hasil produksi harian.' },
+  { id: 'web_weather', title: 'Weather', category: 'Web', image: `${base}porto/web weather.png`, link: 'https://weather.mge.co.id/', description: 'Aplikasi pemantauan cuaca terintegrasi untuk membantu perencanaan operasional lapangan berdasarkan kondisi cuaca terkini.' },
+  { id: 'web_ms_rental', title: 'Daily MS Rental', category: 'Web', image: `${base}porto/web ms_rental.png`, link: 'https://planning.mge.co.id/ms-kontrak/unit-board', description: 'Sistem pengaturan unit running per-shift secara real-time untuk memantau kondisi unit operasional yang delay serta breakdown.' },
+  { id: 'app_input_ms', title: 'Input Daily MS', category: 'App Desktop', image: `${base}porto/app desktop input_ms.png`, description: 'Sistem inputan aplikasi desktop dari dispatch untuk pendataan aktivitas Daily MS sebelum masuk ke dashboard utama.' },
   ]
 
 // --- Navigation Items ---
@@ -255,6 +257,7 @@ export const navItems = [
   { id: 'services', label: 'Services' },
   { id: 'tentang', label: 'About me' },
   { id: 'experience', label: 'Experience' },
+  { id: 'keahlian', label: 'Skills' },
   { id: 'portfolio', label: 'Portfolio' },
   { id: 'kontak', label: 'Contact me' },
 ] as const
