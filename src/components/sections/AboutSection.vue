@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { personalInfo, stats } from '../../data/cv-data'
 
-const cvPdfUrl = import.meta.env.BASE_URL + 'cv-rio-darma.pdf'
+const cvPdfUrl = import.meta.env.BASE_URL + 'BERKAS_LAMARAN_LENGKAP_RIO_DARMA_FREDIKA.pdf'
 </script>
 
 <template>
@@ -31,7 +31,7 @@ const cvPdfUrl = import.meta.env.BASE_URL + 'cv-rio-darma.pdf'
               </div>
             </div>
 
-            <a :href="cvPdfUrl" download="CV-Rio-Darma-2026.pdf" target="_blank" class="btn btn-outline mt-4">
+            <a :href="cvPdfUrl" download="BERKAS_LAMARAN_LENGKAP_RIO_DARMA_FREDIKA.pdf" class="btn btn-outline mt-4">
               Download CV
             </a>
           </div>
