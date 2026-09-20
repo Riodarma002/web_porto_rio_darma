@@ -295,7 +295,7 @@ def build_cv(output_pdf_path, photo_path):
         "Software &amp; Data Engineer (Foreman Planning)",
         "PT. MEGA GLOBAL ENERGY",
         "Desember 2023 – Sekarang",
-        "Balikpapan / Site Operation"
+        "PT. GAM &amp; PT. INDEXIM / Site Operation"
     ))
     exp1_bullets = [
         "Merancang, membangun, dan memelihara aplikasi desktop serta platform web operasional internal (Fleet Management System/FMS, Monitoring Bus, Monitoring Dump Truck, dan Monitoring Fueltruck) untuk pemantauan unit secara real-time.",

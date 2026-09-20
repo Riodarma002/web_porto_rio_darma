@@ -258,7 +258,7 @@ def create_docx(out_path, photo_path):
         "Software & Data Engineer (Foreman Planning)",
         "PT. MEGA GLOBAL ENERGY",
         "Desember 2023 – Sekarang",
-        "Balikpapan / Site Operation",
+        "PT. GAM & PT. INDEXIM / Site Operation",
         [
             "Merancang, membangun, dan memelihara aplikasi desktop serta platform web operasional internal (Fleet Management System/FMS, Monitoring Bus, Monitoring Dump Truck, dan Monitoring Fueltruck) untuk pemantauan unit secara real-time.",
             "Mengembangkan arsitektur pelacakan GPS armada terintegrasi dan modul geofencing virtual guna membatasi serta melacak mobilitas unit operasional tambang dengan presisi tinggi.",
