@@ -85,7 +85,7 @@ export const experiences: Experience[] = [
     id: 'mega-global',
     company: 'PT. MEGA GLOBAL ENERGY',
     role: 'Software & Data Engineer (Foreman Planning)',
-    period: 'Desember 2023 â€“ Sekarang',
+    period: 'Desember 2023 - Sekarang',
     isActive: true,
     responsibilities: [
       'Merancang dan membangun aplikasi desktop serta web untuk input data dan monitoring performa unit operasional.',
@@ -98,7 +98,7 @@ export const experiences: Experience[] = [
     id: 'quadran',
     company: 'PT. QUADRAN INOVASI KARYA BERSAMA',
     role: 'Data Engineer & Drafter GIS Jaringan Listrik',
-    period: 'September 2021 â€“ 2023',
+    period: 'September 2021 - 2023',
     isActive: false,
     responsibilities: [
       'Mengolah data survei koordinat lapangan untuk dimodelkan ke dalam sistem informasi spasial ArcGIS.',
@@ -111,7 +111,7 @@ export const experiences: Experience[] = [
     id: 'kai',
     company: 'PT. KAI PROPERTI',
     role: 'Admin Umum dan LPJ',
-    period: 'September 2019 â€“ Mei 2021',
+    period: 'Desember 2019 - Mei 2021',
     isActive: false,
     responsibilities: [
       'Mengumpulkan dokumen penting seperti SPK, BAP, BAST basborong',
@@ -123,7 +123,7 @@ export const experiences: Experience[] = [
     id: 'sda',
     company: 'PT. SDA',
     role: 'Admin & Pengawas Alat Berat',
-    period: 'Juni 2019 â€“ Desember 2019',
+    period: 'September 2019 - Desember 2019',
     isActive: false,
     responsibilities: [
       'Bertanggung jawab operasional dan progres kerja alat berat',
@@ -136,7 +136,7 @@ export const experiences: Experience[] = [
     id: 'maco',
     company: 'PT. MACO GROUP',
     role: 'Staff R&D',
-    period: 'Januari 2019 â€“ Agustus 2019',
+    period: 'Januari 2019 - Agustus 2019',
     isActive: false,
     responsibilities: [
       'Membuat konten design produk untuk di upload di sosial media',
@@ -149,7 +149,7 @@ export const experiences: Experience[] = [
     id: 'telkom',
     company: 'PT. TELKOM INDONESIA',
     role: 'UX Researcher & Graphic Designer',
-    period: 'April 2017 â€“ Desember 2018',
+    period: 'April 2017 - Desember 2018',
     isActive: false,
     responsibilities: [
       'Menganalisa UI website atau aplikasi mobile & desktop dengan metode heuristic evaluation',
@@ -169,13 +169,13 @@ export const educations: Education[] = [
     id: 'stmik',
     institution: 'STMIK-AMIK Bandung',
     degree: 'Digital Multimedia',
-    period: '2012 â€“ 2015',
+    period: '2012 - 2015',
   },
   {
     id: 'sman',
     institution: 'SMA Negeri 3 Garut',
     degree: 'Ilmu Pengetahuan',
-    period: '2007 â€“ 2010',
+    period: '2007 - 2010',
   }
 ]
 
