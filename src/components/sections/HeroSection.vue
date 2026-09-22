@@ -8,7 +8,7 @@ const scrollTo = (id: string) => {
   }
 }
 const photoUrl = import.meta.env.BASE_URL + 'foto-rio.png'
-const cvPdfUrl = import.meta.env.BASE_URL + 'BERKAS_LAMARAN_LENGKAP_RIO_DARMA_FREDIKA.pdf'
+const cvPdfUrl = import.meta.env.BASE_URL + 'CV_Rio_darma_fredika.pdf'
 </script>
 
 <template>
@@ -30,7 +30,7 @@ const cvPdfUrl = import.meta.env.BASE_URL + 'BERKAS_LAMARAN_LENGKAP_RIO_DARMA_FR
         
         <div class="hero-actions delay-400" v-reveal>
           <button class="btn btn-primary" @click="scrollTo('kontak')">Hire Me</button>
-          <a :href="cvPdfUrl" download="BERKAS_LAMARAN_LENGKAP_RIO_DARMA_FREDIKA.pdf" class="btn btn-outline">Download CV</a>
+          <a :href="cvPdfUrl" download="CV_Rio_darma_fredika.pdf" class="btn btn-outline">Download CV</a>
         </div>
         
         <div class="hero-socials delay-400" v-reveal>
