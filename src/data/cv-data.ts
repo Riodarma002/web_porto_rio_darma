@@ -249,6 +249,8 @@ export const portfolioProjects: Project[] = [
   { id: 'web_weather', title: 'Weather', category: 'Web', image: `${base}porto/web weather.png`, link: 'https://weather.mge.co.id/', description: 'Aplikasi pemantauan cuaca terintegrasi untuk membantu perencanaan operasional lapangan berdasarkan kondisi cuaca terkini.' },
   { id: 'web_ms_rental', title: 'Daily MS Rental', category: 'Web', image: `${base}porto/web ms_rental.png`, link: 'https://planning.mge.co.id/ms-kontrak/unit-board', description: 'Sistem pengaturan unit running per-shift secara real-time untuk memantau kondisi unit operasional yang delay serta breakdown.' },
   { id: 'app_input_ms', title: 'Input Daily MS', category: 'App Desktop', image: `${base}porto/app desktop input_ms.png`, description: 'Sistem inputan aplikasi desktop dari dispatch untuk pendataan aktivitas Daily MS sebelum masuk ke dashboard utama.' },
+  { id: 'web_portal_data', title: 'Portal Data', category: 'Web', image: `${base}porto/portal data.png`, link: 'https://databaseapp-actrmvbpzv2kclhnwj44bc.streamlit.app/?module=0', description: 'Portal data untuk upload data ke database seperti produksi, OB, Hauling, dan MS kontrak.' },
+  { id: 'web_dashboard_idle', title: 'Dashboard Idle', category: 'Web', image: `${base}porto/Dashboard_Idle.png`, link: 'https://idletimedashboardgit-xbfpevkk5cjaxqsmcw8gwg.streamlit.app/', description: 'Dashboard interaktif untuk memonitor dan menganalisis waktu idle unit operasional secara real-time.' },
   ]
 
 // --- Navigation Items ---
